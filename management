@@ -1,141 +1,65 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Eloheh Healthcare | Management Team</title>
-  <link rel="stylesheet" href="styles.css"/>
+  <meta charset="utf-8" />
+  <title>Eloheh Health — Management Team</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
-    .grid { display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
-    .card img { width: 100%; border-radius: 12px; margin-bottom: 10px; }
-    .role { font-size: 13px; color: #555; margin-top: -4px; margin-bottom: 6px; }
+    body{font-family:Arial,Helvetica,sans-serif;margin:24px;color:#2b2f33}
+    h1{color:#0D3B66;margin:0 0 6px}
+    .lead{font-family:Georgia,serif;color:#6E7681;font-size:1.05rem}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:14px}
+    .card{border:1px solid #E6EAF0;border-radius:12px;padding:12px;background:#fff}
+    .card img{width:100%;height:auto;border-radius:8px;border:1px solid #E6EAF0;margin-bottom:8px}
+    h3{margin:4px 0;color:#0D3B66}
+    ul,ol{margin-left:20px}
+    .btn{display:inline-block;padding:10px 14px;border-radius:8px;border:1px solid #0D3B66;color:#fff;background:#0D3B66;text-decoration:none}
+    .btn.secondary{background:#fff;color:#0D3B66;border-color:#1E90A0}
+    footer{margin-top:18px;font-size:.9rem;color:#6E7681}
   </style>
 </head>
 <body>
-  <h1>Management Team</h1>
-  <p><strong>Meet the leaders</strong> behind Eloheh Healthcare’s patient-first mission.</p>
-  <p class="accent"><em>*“Accessible, compassionate care requires strong leadership.”*</em></p>
+  <h1>Leadership &amp; Team</h1>
+  <p class="lead"><em>Operators and clinicians building reliable, human-centered care.</em></p>
 
-  <!-- Executive Leadership -->
-  <h2><u>Executive Leadership</u></h2>
   <div class="grid">
     <div class="card">
-      <img src="assets/headshots/maya_patel.jpg" alt="Dr. Maya Patel"/>
-      <h3>Dr. Maya Patel</h3>
-      <div class="role"><strong>Chief Executive Officer (CEO)</strong></div>
-      <p><strong>Undergrad:</strong> UC Berkeley, B.S. Biology<br>
-         <strong>Graduate:</strong> Stanford School of Medicine, M.D.<br>
-         Experienced internist and healthcare strategist. Leads vision, partnerships, and <strong>system-wide outcomes</strong>.</p>
+      <img src="assets/ceo.jpg" alt="CEO portrait">
+      <h3>Dr. Aria Patel — CEO</h3>
+      <p>Clinician-founder focused on <u>access</u> and outcomes.</p>
     </div>
-
     <div class="card">
-      <img src="assets/headshots/pierce_appleton.jpg" alt="Pierce Appleton"/>
-      <h3>Pierce Appleton</h3>
-      <div class="role"><strong>Chief Operating Officer (COO)</strong></div>
-      <p><strong>Undergrad:</strong> Purdue University, B.S. Finance & Accounting<br>
-         <strong>Graduate:</strong> Northwestern Kellogg, MBA<br>
-         Oversees <u>operations, patient flow</u>, and efficiency. Focused on access optimization and scaling care delivery.</p>
+      <img src="assets/cto.jpg" alt="CTO portrait">
+      <h3>Leo Kim — CTO</h3>
+      <p>Leads device integrations and platform safety.</p>
     </div>
-
     <div class="card">
-      <img src="assets/headshots/elena_rossi.jpg" alt="Dr. Elena Rossi"/>
-      <h3>Dr. Elena Rossi</h3>
-      <div class="role"><strong>Chief Medical Officer (CMO – Medical)</strong></div>
-      <p><strong>Undergrad:</strong> Columbia University, B.A. Chemistry<br>
-         <strong>Graduate:</strong> Johns Hopkins School of Medicine, M.D.<br>
-         Specialist in internal medicine and safety. Chairs credentialing and <strong>clinical quality programs</strong>.</p>
-    </div>
-
-    <div class="card">
-      <img src="assets/headshots/lexie_howard.jpg" alt="Lexie Howard"/>
-      <h3>Lexie Howard</h3>
-      <div class="role"><strong>Chief Marketing Officer (CMO – Marketing)</strong></div>
-      <p><strong>Undergrad:</strong> Indiana University, B.S. Communications<br>
-         <strong>Graduate:</strong> University of Michigan, M.A. Public Health Communications<br>
-         Leads outreach and <strong>patient engagement</strong>. Builds community trust through education campaigns.</p>
-    </div>
-
-    <div class="card">
-      <img src="assets/headshots/noah_chen.jpg" alt="Noah Chen"/>
-      <h3>Noah Chen</h3>
-      <div class="role"><strong>Chief Financial Officer (CFO)</strong></div>
-      <p><strong>Undergrad:</strong> University of Chicago, B.A. Economics<br>
-         <strong>Graduate:</strong> Wharton, MBA<br>
-         Expert in <u>value-based care finance</u> and transparent pricing. Ensures sustainable growth.</p>
-    </div>
-
-    <div class="card">
-      <img src="assets/headshots/priya_raman.jpg" alt="Priya Raman"/>
-      <h3>Priya Raman</h3>
-      <div class="role"><strong>Chief Technology Officer (CTO)</strong></div>
-      <p><strong>Undergrad:</strong> MIT, B.S. Computer Science<br>
-         <strong>Graduate:</strong> Stanford, M.S. Health Informatics<br>
-         Oversees telehealth platforms, interoperability, and <strong>data-driven innovation</strong>.</p>
+      <img src="assets/ops.jpg" alt="COO portrait">
+      <h3>Maya Green — COO</h3>
+      <p>Keeps our programs <strong>reliable</strong> at scale.</p>
     </div>
   </div>
 
-  <!-- Medical Leadership -->
-  <h2><u>Medical Leadership</u></h2>
-  <div class="grid">
-    <div class="card">
-      <img src="assets/headshots/ana_gutierrez.jpg" alt="Dr. Ana Gutierrez"/>
-      <h3>Dr. Ana Gutierrez</h3>
-      <div class="role"><strong>Lead, Cardiology</strong></div>
-      <p><strong>Undergrad:</strong> UCLA, B.S. Biochemistry<br>
-         <strong>Graduate:</strong> Mayo Clinic, M.D.<br>
-         Designs tele-cardiology programs and preventive heart clinics.</p>
-    </div>
-
-    <div class="card">
-      <img src="assets/headshots/omar_haddad.jpg" alt="Dr. Omar Haddad"/>
-      <h3>Dr. Omar Haddad</h3>
-      <div class="role"><strong>Lead, Orthopedic Surgery</strong></div>
-      <p><strong>Undergrad:</strong> University of Toronto, B.S. Kinesiology<br>
-         <strong>Graduate:</strong> Harvard Medical School, M.D.<br>
-         Focuses on sports medicine, joint reconstruction, and <strong>same-day recovery</strong>.</p>
-    </div>
-
-    <div class="card">
-      <img src="assets/headshots/lila_nguyen.jpg" alt="Dr. Lila Nguyen"/>
-      <h3>Dr. Lila Nguyen</h3>
-      <div class="role"><strong>Lead, Pediatrics</strong></div>
-      <p><strong>Undergrad:</strong> UC San Diego, B.S. Human Development<br>
-         <strong>Graduate:</strong> University of Washington, M.D.<br>
-         Leads pediatric wellness, school-based clinics, and immunization outreach.</p>
-    </div>
-  </div>
-
-  <!-- Required lists -->
-  <h2>Leadership Priorities (unordered)</h2>
+  <h2 style="color:#0D3B66;margin-top:16px">What our managers do</h2>
   <ul>
-    <li><strong>Safety</strong> & clinical quality</li>
-    <li><u>Access & affordability</u></li>
-    <li>Equity & outcomes</li>
+    <li>Clinical governance and protocol updates</li>
+    <li>Partnerships with hospitals, payers, and employers</li>
+    <li>Security reviews and data stewardship</li>
   </ul>
 
-  <h2>Leadership Workflow (ordered)</h2>
+  <h2 style="color:#0D3B66">How we grow talent</h2>
   <ol>
-    <li>Define strategic goals</li>
-    <li>Coordinate cross-disciplinary teams</li>
-    <li>Implement patient-centered initiatives</li>
-    <li>Review metrics & refine</li>
+    <li>Mentorship with senior clinicians/engineers</li>
+    <li>Quarterly skills workshops</li>
+    <li>Rotations across operations and product</li>
   </ol>
 
-  <!-- External link -->
-  <p>See national standards at <a href="https://www.jointcommission.org/" target="_blank"><u>The Joint Commission</u></a>.</p>
+  <!-- Links (≤3): download, external, contact -->
+  <p><a class="btn" href="assets/Eloheh_OrgChart.pdf" download>Download org chart (PDF)</a></p>
+  <p><a class="btn secondary" href="https://www.himss.org/resources" target="_blank" rel="noopener">HIMSS resources</a></p>
+  <p><a class="btn" href="mailto:firstname.lastname@purdue.edu?subject=Management%20page">Contact me</a></p>
 
-  <!-- Downloadable bios -->
-  <p><a class="btn" href="assets/management_bios.pdf" download>Download Leadership Bios (PDF)</a></p>
-
-  <!-- Footer -->
-  <div class="footer">
-    <a href="mailto:pierce@purdue.edu">Contact Me</a> &nbsp;|&nbsp;
-    <span>Last modified: <span id="lastMod"></span></span>
-  </div>
-  <script>
-    (function(){
-      try{document.getElementById('lastMod').textContent=document.lastModified;}catch(e){}
-    })();
-  </script>
+  <footer><em>Last modified:</em> <span id="lastModified"></span></footer>
+  <script>document.getElementById('lastModified').textContent = document.lastModified;</script>
 </body>
 </html>
