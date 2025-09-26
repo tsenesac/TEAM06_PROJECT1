@@ -1,114 +1,60 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Coltivare — Our Story & History</title>
+  <meta charset="utf-8" />
+  <title>Eloheh Health — Story & History</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
-    /* Basic layout */
-    body { font-family: Arial, sans-serif; margin: 24px; line-height:1.5; }
-    header { border-bottom: 2px solid #ccc; padding-bottom: 12px; margin-bottom: 18px; }
-    main { max-width: 900px; }
-
-    /* Demonstrate at least two font styles (families) and sizes */
-    .serif { font-family: Georgia, 'Times New Roman', serif; }
-    .sans { font-family: 'Helvetica Neue', Arial, sans-serif; }
-
-    .size-small { font-size: 14px; }
-    .size-large { font-size: 20px; }
-
-    /* Demonstrate at least two colors */
-    .color-green { color: #1b7a3a; }
-    .color-blue { color: #1e66b2; }
-
-    .highlight { background: #f8f8f8; padding: 8px; border-radius:6px; }
-
-    footer { margin-top: 30px; font-size: 13px; color: #555; }
-    img.company-photo { max-width: 100%; height: auto; border-radius: 8px; }
-
-    /* simple button-like link for download */
-    .download { display:inline-block; padding:8px 12px; border-radius:6px; text-decoration:none; border:1px solid #bbb; }
+    body{font-family:Arial,Helvetica,sans-serif;margin:24px;color:#2b2f33;line-height:1.55}
+    h1{color:#0D3B66;margin:0 0 6px}
+    .lead{font-family:Georgia,serif;font-size:1.08rem;color:#6E7681}
+    img{max-width:100%;height:auto;border:1px solid #E6EAF0;border-radius:10px;margin:12px 0}
+    h2{color:#0D3B66;font-size:1.25rem;margin-top:16px}
+    footer{margin-top:18px;font-size:.9rem;color:#6E7681}
+    .btn{display:inline-block;padding:10px 14px;border-radius:8px;border:1px solid #0D3B66;color:#fff;background:#0D3B66;text-decoration:none}
+    .btn.secondary{background:#fff;color:#0D3B66;border-color:#1E90A0}
   </style>
 </head>
 <body>
-  <header>
-    <h1 class="sans">Coltivare — <span class="color-green">Company Story &amp; History</span></h1>
-    <p class="serif size-small">Welcome! This page shares <b>how Coltivare started</b>, our values, and the milestones that shaped us.</p>
-  </header>
+  <h1>Our Story &amp; History</h1>
+  <p class="lead"><em>From pop-up screenings to a connected-care platform.</em></p>
 
-  <main>
-    <!-- Image requirement -->
-    <figure>
-      <!-- Replace the src with your hosted image path (e.g., assets/company-photo.jpg) -->
-      <img class="company-photo" src="assets/company-photo.jpg" alt="Coltivare headquarters and team" />
-      <figcaption class="size-small">Our founding farmers at Coltivare (photo placeholder).</figcaption>
-    </figure>
+  <!-- Required picture -->
+  <img src="assets/founding_team.jpg" alt="Early Eloheh outreach clinic">
 
-    <!-- At least one ordered list and one unordered list -->
-    <section class="highlight">
-      <h2 class="sans color-blue">Founding Timeline</h2>
-      <ol>
-        <li><b>2010</b> — <em>Coltivare</em> is founded by three Purdue agriculture grads in a small community co-op.</li>
-        <li><b>2013</b> — Launched our first sustainable fertilizer product that reduced runoff by 40%.</li>
-        <li><b>2017</b> — Expanded distribution across the Midwest.</li>
-        <li><b>2022</b> — Began offering farm-management consulting services.</li>
-      </ol>
+  <p>
+    <strong>Eloheh Health</strong> started in 2015 running campus wellness pop-ups. We focused on
+    <u>prevention</u> and early detection with community partners. By
+    <span style="color:#B22222;"><strong>2019</strong></span> we expanded screening to employers; in
+    <span style="color:#1E90A0;"><em>2022</em></span> we launched our remote monitoring service.
+  </p>
 
-      <h3 class="sans">Core Values</h3>
-      <ul>
-        <li><span class="serif color-green">Sustainability</span> — caring for land and community.</li>
-        <li><span class="serif color-blue">Innovation</span> — practical tech for everyday farms.</li>
-        <li><span class="serif">Partnership</span> — we grow with our customers.</li>
-      </ul>
-    </section>
+  <h2>Milestones</h2>
+  <ol>
+    <li>2015 — First pop-up screenings with local nurses</li>
+    <li>2019 — Employer wellness and on-site clinics</li>
+    <li>2022 — Remote monitoring + outcome dashboards</li>
+  </ol>
 
-    <!-- Demonstrate font colors, sizes, bold, underline, italics in context -->
-    <section style="margin-top:18px;">
-      <h2 class="sans">Our Early Story</h2>
-      <p class="size-large">What started as a <u>local</u> seed-exchange among neighbors quickly turned into a small business. The founders — <b>Maria Gonzalez</b>, <b>Lee Thompson</b>, and <b>Priya Nair</b> — shared a vision: <em>better yields, healthier soil</em>.</p>
+  <h2>Values we live by</h2>
+  <ul>
+    <li>Patient dignity and informed choice</li>
+    <li>Evidence-based protocols and safety</li>
+    <li>Local partnerships and access</li>
+  </ul>
 
-      <p class="size-small">By focusing on research and farmer feedback, Coltivare became known for practical solutions that worked in real fields. Today we still visit farms weekly to learn directly from growers.</p>
+  <!-- 3 links max on page -->
+  <p>
+    <a class="btn" href="assets/Eloheh_Timeline.pdf" download>Download our timeline (PDF)</a>
+  </p>
+  <p>
+    Learn about preventive care at the <a class="btn secondary" href="https://www.uspreventiveservicestaskforce.org/" target="_blank" rel="noopener">USPSTF</a>
+  </p>
+  <p>
+    Questions? <a class="btn" href="mailto:firstname.lastname@purdue.edu?subject=Story%20page">Contact me</a>
+  </p>
 
-      <p>Want to learn about farming best practices? Check out an outside resource: <a href="https://www.w3schools.com/" target="_blank" rel="noopener">HTML &amp; resources at w3schools</a>. <small>(Opens in a new window/tab.)</small></p>
-
-      <p>Contact me: <a href="mailto:alexis.coberg@example.com">alexis.coberg@example.com</a></p>
-    </section>
-
-    <!-- Downloadable file -->
-    <section style="margin-top:22px;">
-      <h2 class="sans">Company Brochure</h2>
-      <p class="size-small">Download our overview brochure (replace the file in your repository at <code>assets/company-brochure.pdf</code>).</p>
-      <a class="download" href="assets/company-brochure.pdf" download>Download Coltivare Brochure (PDF)</a>
-    </section>
-
-    <!-- Small extras to satisfy rubric (multiple font colors / styles shown above) -->
-    <section style="margin-top:22px;">
-      <h2 class="sans">From the Founders</h2>
-      <p><span class="serif color-green">"We built Coltivare because we believed small changes could make big differences in a farmer's life."</span> — <b>Maria Gonzalez</b></p>
-      <p><span class="sans color-blue">"Our team still values hands-on learning and respects the land first."</span> — <em>Lee Thompson</em></p>
-    </section>
-
-  </main>
-
-  <footer>
-    <!-- Date last modified must be set automatically via code -->
-    <div>Page last modified: <span id="lastModified">(loading...)</span></div>
-    <div style="margin-top:6px; font-size:12px;">This page created by: Alexis Coberg — Coltivare Team</div>
-
-    <script>
-      // Use document.lastModified when available (will work when hosted).
-      // If lastModified is empty or unreliable, fall back to the current date (so it always shows something).
-      (function() {
-        var lm = document.lastModified;
-        if (!lm || lm === '') {
-          // fallback to today's date in a clear format
-          var d = new Date();
-          lm = d.toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' });
-        }
-        document.getElementById('lastModified').innerText = lm + ' (date last modified)';
-      })();
-    </script>
-  </footer>
+  <footer><em>Last modified:</em> <span id="lastModified"></span></footer>
+  <script>document.getElementById('lastModified').textContent = document.lastModified;</script>
 </body>
 </html>
-
