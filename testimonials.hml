@@ -1,1 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Eloheh Health — Testimonials</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;margin:24px;color:#2b2f33}
+    h1{color:#0D3B66;margin:0 0 6px}
+    .lead{font-family:Georgia,serif;color:#6E7681;font-size:1.05rem}
+    blockquote{font-style:italic;border-left:4px solid #1E90A0;padding-left:12px;color:#555}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:14px}
+    .card{border:1px solid #E6EAF0;border-radius:12px;padding:12px;background:#fff}
+    img{width:100%;height:auto;border-radius:8px;border:1px solid #E6EAF0;margin-bottom:8px}
+    ul,ol{margin-left:20px}
+    .btn{display:inline-block;padding:10px 14px;border-radius:8px;border:1px solid #0D3B66;color:#fff;background:#0D3B66;text-decoration:none}
+    .btn.secondary{background:#fff;color:#0D3B66;border-color:#1E90A0}
+    footer{margin-top:18px;font-size:.9rem;color:#6E7681}
+  </style>
+</head>
+<body>
+  <h1>Customer Testimonials</h1>
+  <p class="lead"><em>Real outcomes from members and providers.</em></p>
 
+  <div class="grid">
+    <div class="card">
+      <img src="assets/patient1.jpg" alt="Member story">
+      <blockquote>“With the alerts, I avoided an ER visit. The nurse checked on me within minutes.” — J.D., member</blockquote>
+    </div>
+    <div class="card">
+      <img src="assets/clinic1.jpg" alt="Clinic partner">
+      <blockquote>“Readmissions dropped 14% in our CHF cohort over the pilot.” — M.G., clinic director</blockquote>
+    </div>
+  </div>
+
+  <h2 style="color:#0D3B66;margin-top:16px">Common themes</h2>
+  <ul>
+    <li>Members feel supported between visits</li>
+    <li>Clinics act sooner with trend flags</li>
+    <li>Clear ROI from avoided admissions</li>
+  </ul>
+
+  <h2 style="color:#0D3B66">How we collect feedback</h2>
+  <ol>
+    <li>Post-enrollment surveys (30/90 days)</li>
+    <li>Quarterly provider interviews</li>
+    <li>Annual outcomes review with finance</li>
+  </ol>
+
+  <!-- Links (≤3): download, external, contact -->
+  <p><a class="btn" href="assets/Eloheh_Case_Studies.pdf" download>Download case studies (PDF)</a></p>
+  <p><a class="btn secondary" href="https://www.ahrq.gov/" target="_blank" rel="noopener">AHRQ patient safety</a></p>
+  <p><a class="btn" href="mailto:firstname.lastname@purdue.edu?subject=Testimonials%20page">Contact me</a></p>
+
+  <footer><em>Last modified:</em> <span id="lastModified"></span></footer>
+  <script>document.getElementById('lastModified').textContent = document.lastModified;</script>
+</body>
+</html>
