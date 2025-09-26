@@ -1,1 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coltivare — Our Story & History</title>
+  <style>
+    /* Basic layout */
+    body { font-family: Arial, sans-serif; margin: 24px; line-height:1.5; }
+    header { border-bottom: 2px solid #ccc; padding-bottom: 12px; margin-bottom: 18px; }
+    main { max-width: 900px; }
+
+    /* Demonstrate at least two font styles (families) and sizes */
+    .serif { font-family: Georgia, 'Times New Roman', serif; }
+    .sans { font-family: 'Helvetica Neue', Arial, sans-serif; }
+
+    .size-small { font-size: 14px; }
+    .size-large { font-size: 20px; }
+
+    /* Demonstrate at least two colors */
+    .color-green { color: #1b7a3a; }
+    .color-blue { color: #1e66b2; }
+
+    .highlight { background: #f8f8f8; padding: 8px; border-radius:6px; }
+
+    footer { margin-top: 30px; font-size: 13px; color: #555; }
+    img.company-photo { max-width: 100%; height: auto; border-radius: 8px; }
+
+    /* simple button-like link for download */
+    .download { display:inline-block; padding:8px 12px; border-radius:6px; text-decoration:none; border:1px solid #bbb; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="sans">Coltivare — <span class="color-green">Company Story &amp; History</span></h1>
+    <p class="serif size-small">Welcome! This page shares <b>how Coltivare started</b>, our values, and the milestones that shaped us.</p>
+  </header>
+
+  <main>
+    <!-- Image requirement -->
+    <figure>
+      <!-- Replace the src with your hosted image path (e.g., assets/company-photo.jpg) -->
+      <img class="company-photo" src="assets/company-photo.jpg" alt="Coltivare headquarters and team" />
+      <figcaption class="size-small">Our founding farmers at Coltivare (photo placeholder).</figcaption>
+    </figure>
+
+    <!-- At least one ordered list and one unordered list -->
+    <section class="highlight">
+      <h2 class="sans color-blue">Founding Timeline</h2>
+      <ol>
+        <li><b>2010</b> — <em>Coltivare</em> is founded by three Purdue agriculture grads in a small community co-op.</li>
+        <li><b>2013</b> — Launched our first sustainable fertilizer product that reduced runoff by 40%.</li>
+        <li><b>2017</b> — Expanded distribution across the Midwest.</li>
+        <li><b>2022</b> — Began offering farm-management consulting services.</li>
+      </ol>
+
+      <h3 class="sans">Core Values</h3>
+      <ul>
+        <li><span class="serif color-green">Sustainability</span> — caring for land and community.</li>
+        <li><span class="serif color-blue">Innovation</span> — practical tech for everyday farms.</li>
+        <li><span class="serif">Partnership</span> — we grow with our customers.</li>
+      </ul>
+    </section>
+
+    <!-- Demonstrate font colors, sizes, bold, underline, italics in context -->
+    <section style="margin-top:18px;">
+      <h2 class="sans">Our Early Story</h2>
+      <p class="size-large">What started as a <u>local</u> seed-exchange among neighbors quickly turned into a small business. The founders — <b>Maria Gonzalez</b>, <b>Lee Thompson</b>, and <b>Priya Nair</b> — shared a vision: <em>better yields, healthier soil</em>.</p>
+
+      <p class="size-small">By focusing on research and farmer feedback, Coltivare became known for practical solutions that worked in real fields. Today we still visit farms weekly to learn directly from growers.</p>
+
+      <p>Want to learn about farming best practices? Check out an outside resource: <a href="https://www.w3schools.com/" target="_blank" rel="noopener">HTML &amp; resources at w3schools</a>. <small>(Opens in a new window/tab.)</small></p>
+
+      <p>Contact me: <a href="mailto:alexis.coberg@example.com">alexis.coberg@example.com</a></p>
+    </section>
+
+    <!-- Downloadable file -->
+    <section style="margin-top:22px;">
+      <h2 class="sans">Company Brochure</h2>
+      <p class="size-small">Download our overview brochure (replace the file in your repository at <code>assets/company-brochure.pdf</code>).</p>
+      <a class="download" href="assets/company-brochure.pdf" download>Download Coltivare Brochure (PDF)</a>
+    </section>
+
+    <!-- Small extras to satisfy rubric (multiple font colors / styles shown above) -->
+    <section style="margin-top:22px;">
+      <h2 class="sans">From the Founders</h2>
+      <p><span class="serif color-green">"We built Coltivare because we believed small changes could make big differences in a farmer's life."</span> — <b>Maria Gonzalez</b></p>
+      <p><span class="sans color-blue">"Our team still values hands-on learning and respects the land first."</span> — <em>Lee Thompson</em></p>
+    </section>
+
+  </main>
+
+  <footer>
+    <!-- Date last modified must be set automatically via code -->
+    <div>Page last modified: <span id="lastModified">(loading...)</span></div>
+    <div style="margin-top:6px; font-size:12px;">This page created by: Alexis Coberg — Coltivare Team</div>
+
+    <script>
+      // Use document.lastModified when available (will work when hosted).
+      // If lastModified is empty or unreliable, fall back to the current date (so it always shows something).
+      (function() {
+        var lm = document.lastModified;
+        if (!lm || lm === '') {
+          // fallback to today's date in a clear format
+          var d = new Date();
+          lm = d.toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' });
+        }
+        document.getElementById('lastModified').innerText = lm + ' (date last modified)';
+      })();
+    </script>
+  </footer>
+</body>
+</html>
 
